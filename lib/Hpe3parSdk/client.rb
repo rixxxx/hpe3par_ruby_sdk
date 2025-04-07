@@ -44,7 +44,7 @@ module Hpe3parSdk
           @api_url, @secure, @debug,
           @suppress_ssl_warnings, @timeout = nil
       )
-      check_WSAPI_version
+      #check_WSAPI_version
       @vlun_query_supported = false
       @cpg = CPGManager.new(@http)
       @qos = QOSManager.new(@http)
